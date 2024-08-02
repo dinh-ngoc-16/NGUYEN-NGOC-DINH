@@ -1,3 +1,9 @@
+# CRUDE server
+
+## Description
+
+A backend server with ExpressJS and TS.
+
 open command at folder code
 
 you can find a postman collection with url and params for each enpoint in folder

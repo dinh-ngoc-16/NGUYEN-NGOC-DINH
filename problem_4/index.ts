@@ -6,7 +6,7 @@ const sum_to_n_a = (n: number): number => {
   let result = ((1 + lastNum) * lastNum) / 2;
   return n < 0 ? result * -1 : result;
 };
-console.log(sum_to_n_a(0));
+console.log("First solution: ", sum_to_n_a(99));
 
 //
 //complexity: O(n)
@@ -19,14 +19,14 @@ const sum_to_n_b = (n: number): number => {
   }
   return n < 0 ? result * -1 : result;
 };
-console.log(sum_to_n_b(0));
+console.log("Second solution: ", sum_to_n_b(99));
 
 //
 //complexity: O(n)
 //consumes the most memory can not use with the large number
 const sum_to_n_c = (n: number): number => {
   try {
-    let lastNum = Math.abs(n);
+    let lastNum: number = Math.abs(n);
     if (lastNum == 0) return 0;
     if (lastNum == 1) return 1;
     return n < 0
@@ -37,7 +37,7 @@ const sum_to_n_c = (n: number): number => {
     return -1;
   }
 };
-console.log(sum_to_n_c(0));
+console.log("Third solution: ", sum_to_n_c(99));
 
 // const start = performance.now();
 // const end = performance.now();
