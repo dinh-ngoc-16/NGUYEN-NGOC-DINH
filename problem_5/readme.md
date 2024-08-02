@@ -12,6 +12,7 @@ Example server using expressjs, TS and MongoDB
 ## Installation
 
 run with nodejs
+for easy testing i will let .env in folder you just need run and using api bellow
 
 1. require install Nodejs
 2. Open cmd at this folder and copy using commands bellow
