@@ -31,9 +31,10 @@ run with docker
 
 You should import the file postman to more detail each api.
 
-API have:
-1.Get coins:[GET] http://localhost:3000/api/coins
-2.Get detail coin:[GET] http://localhost:3000/api/coins/:coinCode
-3.Create a coin:[POST] http://localhost:3000/api/coins
-4.Update a coin:[PATCH] http://localhost:3000/api/coins/:coinCode
-5.Delete a coin:[DELETE] http://localhost:3000/api/coins/:coinCode
+API supported:
+
+1. Get coins:[GET] http://localhost:3000/api/coins
+2. Get detail coin:[GET] http://localhost:3000/api/coins/:coinCode
+3. Create a coin:[POST] http://localhost:3000/api/coins
+4. Update a coin:[PATCH] http://localhost:3000/api/coins/:coinCode
+5. Delete a coin:[DELETE] http://localhost:3000/api/coins/:coinCode
