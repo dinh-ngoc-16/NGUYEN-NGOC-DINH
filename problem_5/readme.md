@@ -14,18 +14,20 @@ Example server using expressjs, TS and MongoDB
 run with nodejs
 
 1. require install Nodejs
-2. npm i
-3. npm start
-4. url of api => http://localhost:3000/
+2. Open cmd at this folder and copy using commands bellow
+3. npm i
+4. npm start
+5. url of api => http://localhost:3000/
 
 ---
 
 run with docker
 
 1. require install Docker
-2. docker build -t my-app .
-3. docker run -d -p 3000:3000 --name my-running-app my-app
-4. url of api => http://localhost:3000/
+2. Open cmd at this folder and using commands bellow
+3. docker build -t my-app .
+4. docker run -d -p 3000:3000 --name my-running-app my-app
+5. url of api => http://localhost:3000/
 
 ## Usage
 
